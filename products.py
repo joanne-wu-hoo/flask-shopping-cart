@@ -29,7 +29,10 @@ class Product():
         [<Product id=1 name="Tea cup">]
     """
 
+    # [<p>, <p>]
     _products = []
+
+    # _products = {1: product, 2: pr}
 
     def __init__(self, id, name, description, image, price):
         self.id = id
